@@ -8,7 +8,7 @@ fn main() -> std::io::Result<()> {
     println!("UDP server running on port 34254");
     
     // Set the destination address (change this to your Python client's address)
-    let dest_addr = "192.168.0.204:9999";
+    let dest_addr = "192.168.0.6:34255";
     
     // Create a random number generator
     let mut rng = rand::thread_rng();
