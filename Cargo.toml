@@ -1,5 +1,5 @@
 [package]
-name = "udp-sender"
+name = "simple-udp"
 version = "0.1.0"
 edition = "2021"
 
