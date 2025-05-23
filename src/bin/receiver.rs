@@ -3,8 +3,8 @@ use std::time::SystemTime;
 
 fn main() -> std::io::Result<()> {
     // Bind to the port we want to receive on
-    let socket = UdpSocket::bind("127.0.0.1:34254")?;
-    println!("UDP receiver running on port 34254");
+    let socket = UdpSocket::bind("0.0.0.0:34255")?;
+    println!("UDP receiver running on port 34255");
     
     let mut buf = [0; 1]; // Buffer for 1 byte (u8)
     
